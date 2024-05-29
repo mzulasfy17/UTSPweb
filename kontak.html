@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak Bunaken Park</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9ecef;
+        }
         .navbar-dark .navbar-nav .nav-link {
             color: white;
+            transition: color 0.3s;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #17a2b8;
         }
         .navbar-brand {
             font-size: 1.8rem;
         }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .form-control {
+            border-radius: 0.25rem;
+        }
+        .btn-primary {
+            background-color: #17a2b8;
+            border: none;
+            border-radius: 0.25rem;
+            padding: 12px 30px;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #138496;
         }
         footer {
             background-color: #343a40;
             color: white;
             padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
@@ -50,7 +80,7 @@
     </nav>
 
     <div class="container my-5">
-        <h1 class="display-4">Kontak Bunaken Park</h1>
+        <h1 class="display-4 text-center mb-4">Kontak Bunaken Park</h1>
         <form>
             <div class="form-group">
                 <label for="name">Nama</label>
@@ -68,7 +98,7 @@
         </form>
     </div>
 
-    <footer class="text-center py-4" style="background-color: #343a40; color: white;">
+    <footer class="text-center">
         <p>&copy; 2024 Bunaken Park. All rights reserved.</p>
     </footer>
 
