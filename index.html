@@ -60,6 +60,43 @@
         .fade-in {
             animation: fadeIn 2.5s ease-in-out;
         }
+        /* Responsive Styles */
+        @media (max-width: 767.98px) {
+            .jumbotron {
+                height: auto;
+                padding: 50px 15px;
+                text-align: center;
+            }
+            .navbar-brand {
+                font-size: 1.5rem;
+            }
+            .lead {
+                font-size: 1.2rem;
+            }
+            .btn-primary {
+                font-size: 1rem;
+            }
+            .feature-box {
+                padding: 10px;
+            }
+            .feature-box i {
+                font-size: 2rem;
+            }
+            .navbar-collapse {
+                text-align: center;
+            }
+        }
+        @media (max-width: 575.98px) {
+            .feature-box {
+                margin-bottom: 15px;
+            }
+            .feature-box i {
+                font-size: 1.8rem;
+            }
+            .lead {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -99,21 +136,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <i class="fas fa-water"></i>
                     <h3>Diving</h3>
                     <p>Explore the underwater beauty of Bunaken with our guided diving tours.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <i class="fas fa-fish"></i>
                     <h3>Snorkeling</h3>
                     <p>Enjoy snorkeling in the crystal clear waters and see colorful marine life.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="feature-box">
                     <i class="fas fa-tree"></i>
                     <h3>Nature Walks</h3>
@@ -126,9 +163,8 @@
     <footer class="text-center mt-4 py-3">
         <p>&copy; 2024 Bunaken Park. All rights reserved.</p>
         <p>Follow us on:
-            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/btn_bunaken?t=sRmJEje4Li-560pRRgUR-w&s=09" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/manadoadventure?igsh=emF1MGtneWlsNWdx" class="text-white"><i class="fab fa-instagram"></i></a>
         </p>
     </footer>
 
