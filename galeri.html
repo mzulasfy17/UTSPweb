@@ -20,6 +20,28 @@
             color: white;
             padding: 20px 0;
         }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card-img-top {
+            transition: transform 0.3s;
+        }
+        .card:hover .card-img-top {
+            transform: scale(1.05);
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
     </style>
 </head>
 <body>
@@ -60,7 +82,7 @@
                             <div class="card mb-4">
                                 <img src="diving1.jpg" class="card-img-top" alt="Image 4">
                                 <div class="card-body">
-                                    <p class="card-text">Aktivitas snorkeling di Bunaken.</p>
+                                    <p class="card-text">Pesona terumbu Karang dilaut Bunaken.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +118,7 @@
                             <div class="card mb-4">
                                 <img src="Nudibranch-3.jpg" class="card-img-top" alt="Image 8">
                                 <div class="card-body">
-                                    <p class="card-text">Pesona Anemon Laut.</p>
+                                    <p class="card-text">Pesona Siput Laut.</p>
                                 </div>
                             </div>
                         </div>
